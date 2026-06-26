@@ -5,3 +5,10 @@ __pycache__/
 *.pkl
 *.json
 .ipynb_checkpoints/
+*.pyc
+
+models/
+*.h5
+*.keras
+*.pkl
+*.json
