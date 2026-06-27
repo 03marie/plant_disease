@@ -1,15 +1,5 @@
 # Application de détection de maladies de plantes — Guide rapide
 
-## ⚠️ Fichier manquant : modèle XGBoost
-Ton modèle CNN (`best_cnn_model.keras`) est déjà inclus et testé dans ce
-dossier. Il ne manque que **`final_xgb_model.json`** (le modèle XGBoost
-entraîné, sauvegardé via `final_xgb_model.save_model(...)` dans ton
-notebook) — `best_xgb_params.json` que tu m'as envoyé ne contient que les
-hyperparamètres, pas le modèle.
-
-Retrouve ce fichier (Colab, Drive, ou ton dossier API) et place-le dans
-`models/`. Sans lui, seul le CNN sera utilisable dans le sélecteur.
-
 ## 1. Structure du projet
 ```
 plant_app/
